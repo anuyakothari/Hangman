@@ -16,6 +16,7 @@ def play_again():
     if again == "no":
         quit()
     if again == "yes":
+        guesses.clear()
         run_hangman()
 
 
@@ -56,7 +57,7 @@ def run_hangman():
 
                 else:
                     lives -= 1
-                    print("Letter not found. Lives left:", lives)
+                    print("Letter not found.")
                     print(display)
 
             else:
