@@ -2,7 +2,8 @@ import random
 
 print("Let's play hangman!")
 
-wordlist = ["grape", "horse", "chair", "blanket", "table", "piano", "globe"]
+wordlist = ["grape", "horse", "chair", "blanket", "table", "piano", "globe", "shoe", "pencil", "paint", "ruler", "quail", "history", "beach", "dolphin", "rope", "flower", "month", "birthday", "light", "flag", "state", "insect", "story", "globe", "signature", "child" ]
+
 guesses = []
 
 
