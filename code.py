@@ -1,6 +1,12 @@
 import random
 
 print("Let's play hangman!")
+wordlist = [apple, horse, banana, blanket, table, piano, globe]
+picked_word = random.choice(wordlist)
+length = len(picked_word)
+display = "_ " * length
+print(display)
+lives = 6
 
 wordlist = ["grape", "horse", "chair", "blanket", "table", "piano", "globe", "shoe", "pencil", "paint", "ruler", "quail", "history", "beach", "dolphin", "rope", "flower", "month", "birthday", "light", "flag", "state", "insect", "story", "globe", "signature", "child" ]
 
